@@ -25,7 +25,7 @@
 		NSMutableArray *mutableWisdoms = NSMutableArray.new;
 		for (NSString *wisdomString  in wisdomStrings) {
 			
-			NSArray *wisdomSubstrings = [wisdomString componentsSeparatedByString:@"		Wisdom"];
+			NSArray *wisdomSubstrings = [wisdomString componentsSeparatedByString:@"		-- "];
 			Wisdom *wisdom = [Wisdom wisdomWithQuote:wisdomSubstrings.firstObject andAuthor:wisdomSubstrings.lastObject];
 			[mutableWisdoms addObject:wisdom];
 		}
