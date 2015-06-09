@@ -15,6 +15,7 @@
 		B3C2C26E1B26F0F90039E560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C2C26C1B26F0F90039E560 /* LaunchScreen.storyboard */; };
 		B3C2C2791B26F0F90039E560 /* StackOfFortuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2C2781B26F0F90039E560 /* StackOfFortuneTests.m */; };
 		B3C2C2841B26F0FA0039E560 /* StackOfFortuneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2C2831B26F0FA0039E560 /* StackOfFortuneUITests.m */; };
+		D81817E31B27445600F5D265 /* CoreSpotlight_Demo.png in Resources */ = {isa = PBXBuildFile; fileRef = D81817E21B27445600F5D265 /* CoreSpotlight_Demo.png */; };
 		D826A6681B26F56F00C93B3B /* FortuneController.m in Sources */ = {isa = PBXBuildFile; fileRef = D826A6671B26F56F00C93B3B /* FortuneController.m */; };
 		D826A66B1B26F61400C93B3B /* wisdom.txt in Resources */ = {isa = PBXBuildFile; fileRef = D826A66A1B26F61400C93B3B /* wisdom.txt */; };
 		D826A66C1B26F61400C93B3B /* wisdom.txt in Resources */ = {isa = PBXBuildFile; fileRef = D826A66A1B26F61400C93B3B /* wisdom.txt */; };
@@ -58,6 +59,7 @@
 		B3C2C27F1B26F0FA0039E560 /* StackOfFortuneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackOfFortuneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C2C2831B26F0FA0039E560 /* StackOfFortuneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOfFortuneUITests.m; sourceTree = "<group>"; };
 		B3C2C2851B26F0FA0039E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81817E21B27445600F5D265 /* CoreSpotlight_Demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CoreSpotlight_Demo.png; sourceTree = "<group>"; };
 		D826A6601B26F47700C93B3B /* StackOfFortune-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackOfFortune-Bridging-Header.h"; sourceTree = "<group>"; };
 		D826A6661B26F56F00C93B3B /* FortuneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FortuneController.h; sourceTree = "<group>"; };
 		D826A6671B26F56F00C93B3B /* FortuneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FortuneController.m; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		D826A6691B26F5EE00C93B3B /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
+				D81817E21B27445600F5D265 /* CoreSpotlight_Demo.png */,
 				D826A66A1B26F61400C93B3B /* wisdom.txt */,
 			);
 			name = Ressources;
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C2C26E1B26F0F90039E560 /* LaunchScreen.storyboard in Resources */,
+				D81817E31B27445600F5D265 /* CoreSpotlight_Demo.png in Resources */,
 				D826A66B1B26F61400C93B3B /* wisdom.txt in Resources */,
 				B3C2C26B1B26F0F90039E560 /* Assets.xcassets in Resources */,
 				B3C2C2691B26F0F90039E560 /* Main.storyboard in Resources */,
