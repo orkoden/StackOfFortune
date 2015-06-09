@@ -7,7 +7,6 @@
 //
 
 #import "FortuneController.h"
-#import "Wisdom.h"
 
 @implementation FortuneController
 

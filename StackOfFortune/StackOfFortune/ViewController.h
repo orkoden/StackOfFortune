@@ -11,7 +11,5 @@
 
 @interface ViewController : UIViewController
 
-@property (strong, nonatomic) FortuneController *fortuneController;
-
 @end
 
