@@ -15,6 +15,7 @@
 		B3C2C26E1B26F0F90039E560 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3C2C26C1B26F0F90039E560 /* LaunchScreen.storyboard */; };
 		B3C2C2791B26F0F90039E560 /* StackOfFortuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2C2781B26F0F90039E560 /* StackOfFortuneTests.m */; };
 		B3C2C2841B26F0FA0039E560 /* StackOfFortuneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C2C2831B26F0FA0039E560 /* StackOfFortuneUITests.m */; };
+		D826A6681B26F56F00C93B3B /* FortuneController.m in Sources */ = {isa = PBXBuildFile; fileRef = D826A6671B26F56F00C93B3B /* FortuneController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		B3C2C2831B26F0FA0039E560 /* StackOfFortuneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StackOfFortuneUITests.m; sourceTree = "<group>"; };
 		B3C2C2851B26F0FA0039E560 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D826A6601B26F47700C93B3B /* StackOfFortune-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StackOfFortune-Bridging-Header.h"; sourceTree = "<group>"; };
+		D826A6661B26F56F00C93B3B /* FortuneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FortuneController.h; sourceTree = "<group>"; };
+		D826A6671B26F56F00C93B3B /* FortuneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FortuneController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				B3C2C2621B26F0F90039E560 /* AppDelegate.m */,
 				B3C2C2641B26F0F90039E560 /* ViewController.h */,
 				B3C2C2651B26F0F90039E560 /* ViewController.m */,
+				D826A6661B26F56F00C93B3B /* FortuneController.h */,
+				D826A6671B26F56F00C93B3B /* FortuneController.m */,
 				B3C2C2671B26F0F90039E560 /* Main.storyboard */,
 				B3C2C26A1B26F0F90039E560 /* Assets.xcassets */,
 				B3C2C26C1B26F0F90039E560 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3C2C2661B26F0F90039E560 /* ViewController.m in Sources */,
+				D826A6681B26F56F00C93B3B /* FortuneController.m in Sources */,
 				B3C2C2631B26F0F90039E560 /* AppDelegate.m in Sources */,
 				B3C2C2601B26F0F90039E560 /* main.m in Sources */,
 			);
