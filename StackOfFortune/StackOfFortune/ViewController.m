@@ -30,6 +30,7 @@
     for (NSString* str in texts) {
         [self.fortuneStackView addArrangedSubview:[self textViewWithText:str]];
     }
+	self.fortuneController = FortuneController.new;
 }
 
 - (void)didReceiveMemoryWarning {

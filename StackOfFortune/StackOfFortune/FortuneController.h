@@ -10,4 +10,6 @@
 
 @interface FortuneController : NSObject
 
+@property (strong, nonatomic) NSArray *wisdoms;
+
 @end
