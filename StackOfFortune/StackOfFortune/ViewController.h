@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FortuneController.h"
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) FortuneController *fortuneController;
 
 @end
 

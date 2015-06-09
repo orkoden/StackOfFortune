@@ -21,6 +21,7 @@
 
 -(void)viewDidAppear:(BOOL)animated
 {
+	self.fortuneController = FortuneController.new;
 }
 
 - (void)didReceiveMemoryWarning {
