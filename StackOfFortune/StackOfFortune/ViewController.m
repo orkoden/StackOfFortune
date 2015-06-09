@@ -32,7 +32,6 @@
 {
 	self.fortuneController = FortuneController.new;
 	
-	int i = 0;
     for (Wisdom *wisdom in self.fortuneController.wisdoms) {
 		
 		UIView *view = [self textViewWithText:wisdom.author];
@@ -45,7 +44,7 @@
 
 -(void) removeColorView
 {
-	[UIView animateWithDuration:0.25 animations:^{
+	[UIView animateWithDuration:0.1 animations:^{
 		UIView * firstView = self.self.fortuneStackView.arrangedSubviews[0];
 		firstView.hidden = YES;
 	} completion:^(BOOL finished) {
@@ -53,7 +52,7 @@
 		[self.self.fortuneStackView removeArrangedSubview:self.self.fortuneStackView.arrangedSubviews[0]];
 		
 		if (self.self.fortuneStackView.arrangedSubviews.count > 0) {
-			dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+			dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 				[self removeColorView];
 			});
 		}
