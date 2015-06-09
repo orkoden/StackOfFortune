@@ -31,6 +31,17 @@
         [self.fortuneStackView addArrangedSubview:[self textViewWithText:str]];
     }
 	self.fortuneController = FortuneController.new;
+    
+    [self performSelector:@selector(removeColorView) withObject:nil afterDelay:1.0];
+}
+
+-(void) removeColorView
+{
+    [UIView animateWithDuration:1.0 animations:^{
+        [self.fortuneStackView removeArrangedSubview: self.fortuneStackView.arrangedSubviews.firstObject];
+        [self performSelector:@selector(removeColorView) withObject:nil afterDelay:1.0];
+    }];
+//    self.fortuneStackView.arrangedSubviews.firstObject.alpha = 0.0;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -44,6 +55,7 @@
     UITextView* textV = [[UITextView alloc] initWithFrame:CGRectMake(0.0, 0.0, 300, 100)];
     
     textV.text = text;
+    textV.backgroundColor =[UIColor yellowColor];
     return textV;
 }
 
